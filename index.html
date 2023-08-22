@@ -108,9 +108,9 @@
 <script language="javascript">
     function show_date_time() {
         window.setTimeout("show_date_time()", 1000);
-        BirthDay = new Date("08/11/2023 20:00:00");
+        FirstDay = new Date("08/11/2023 20:00:00");
         today = new Date();
-        timeold = (today.getTime() - BirthDay.getTime());
+        timeold = (today.getTime() - FirstDay.getTime());
         sectimeold = timeold / 1000
         secondsold = Math.floor(sectimeold);
         msPerDay = 24 * 60 * 60 * 1000
@@ -665,8 +665,5 @@
     S.init();
 </script>
 Andy
-<audio autoplay="autoplay" loop="loop">
-    <source src="http://m10.music.126.net/20180509183512/5ae461e9a42675d782840bf139b05c60/ymusic/e492/ea7a/6a27/8799d19e52d9bbe3ae15febb03d7efdb.mp3" type="audio/mpeg">
-</audio>
 </body>
 </html>
